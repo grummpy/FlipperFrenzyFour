@@ -1,0 +1,11 @@
+{
+  "name": "flipper-frenzy-four",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Four-sided local pinball. Last flipper standing wins.",
+  "scripts": {
+    "start": "python3 server.py",
+    "test": "node --test tests/ && python3 tests/test_server.py"
+  }
+}
